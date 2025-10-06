@@ -1,0 +1,101 @@
+body {
+    background-color: #d1d1d1;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+}
+
+.card {
+    background-color: #fff ;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: rgb(156, 19, 42);
+    border-bottom: 2px solid #d1d1d1;
+    padding: 5px;
+}
+
+.btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn-pink {
+    background-color: palevioletred;
+    color: white;
+}
+
+.btn-green {
+    background-color: greenyellow;
+    color: white;
+}
+
+.btn-brown {
+    background-color: brown;
+    color: white;
+}
+
+.counter {
+    text-align: center;
+}
+
+#counter-value {
+    display: block;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* =========== To Do List ========== */
+.todo-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+#todo-input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid palevioletred;
+}
+
+#todo-list {
+    list-style: none;
+    padding: 0;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: pink;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+.todo-item button {
+    background-color: bisque;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
